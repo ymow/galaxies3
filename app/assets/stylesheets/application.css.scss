@@ -1,3 +1,7 @@
-//= require_self
-//= require common
-//= require font-awesome
+@import "bourbon";
+
+@import "neat";
+@import "bootstrap-override";
+@import "bootstrap-setting";
+@import "common";
+@import "pages";

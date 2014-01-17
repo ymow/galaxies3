@@ -1,19 +1,28 @@
 .container{
 	position: relative;
 	margin-top: 10px;
-	height: 50px;
-	clear:both;
+ 
+ 
 	width: 100%; 
-	height: 70px;
+	height: 60px;
+	font-size: 10pt; 
 }
+
 .navbar navbar-fixed-top {
 	margin-bottom: 0px;
 	padding: 0px;
 }
 
+
  .HomeBanner {
+ 	position: relative;
 	margin-top: 0px;
 	padding: 0px;
+	top:0px;
+    border: 0px none;
+    vertical-align: middle;
+
+
 }
 
 
@@ -32,9 +41,9 @@ ul.nav li.dropdown:hover .dropdown-menu{
 .footer  {
 position: relative;margin-top: -150px;height: 100px;clear:both;
 width: 100%; 
-height: 30px; 
+height: 20px; 
 float: left; 
-font-size: 12pt; 
+font-size: 10 pt; 
 color: #000; 
 margin-top: 5px; 	
 }
