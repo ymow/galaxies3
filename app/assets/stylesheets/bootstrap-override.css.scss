@@ -1,0 +1,41 @@
+.container{
+	position: relative;
+	margin-top: 10px;
+	height: 50px;
+	clear:both;
+	width: 100%; 
+	height: 70px;
+}
+.navbar navbar-fixed-top {
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+ .HomeBanner {
+	margin-top: 0px;
+	padding: 0px;
+}
+
+
+
+body{
+  padding-top: 110px;
+}
+
+ul.nav li.dropdown:hover .dropdown-menu{
+    display: block;    
+ margin-top: 30px;
+
+}
+
+/* Footer */
+.footer  {
+position: relative;margin-top: -150px;height: 100px;clear:both;
+width: 100%; 
+height: 30px; 
+float: left; 
+font-size: 12pt; 
+color: #000; 
+margin-top: 5px; 	
+}
+
