@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html  ng-app>
 <head>
   <%= render_page_title_tag %>
   <%= render_page_description_meta_tag %>
   <%= render_page_keywords_meta_tag %>
   <%= render_page_image_link_tag %>
   <%= csrf_meta_tag %>
-
+  <script src="responsive-nav.js"></script>
   <%= stylesheet_link_tag "application" %>
   <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<!-- 
+  <script src="/assets/responsive-nav.js"></script>
+  <link rel="stylesheet" href="/assets/responsive-nav.css">
+  <script>
+    var nav = responsiveNav(".nav-collapse");
+</script>
+ -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     
+          <!-- Slider Plugin -->
+    <script type="text/javascript" src="/assets/jquery.glide.js"></script>
+     
+       <script src="/assets/bootstrap.js"></script>
+       <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script> <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
+
+</head>
   <%= yield :stylesheets %>
 
   <meta property="og:title"       content="<%= page_title ||  SeoHelper.configuration.site_name %>"/>
