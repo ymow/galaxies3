@@ -7,8 +7,15 @@
 
 	width: 100%; 
 	height: 100%;
+
+
 }
- 
+
+@media (min-width: 980px) {
+	body{
+	  padding-top: 96px;
+	}
+}
 .container{
 	position: relative;
 	margin-top: 10px;
@@ -16,6 +23,7 @@
 	height: 100%;
 	font-size: 10pt; 
 }
+
 
 .nav .pull-right{
 	margin-bottom: 0px;
@@ -27,7 +35,6 @@
 
  .HomeBanner {
  	position: relative;
-	margin-top: 100px;
 	padding: 0px;
 	top:0px;
     border: 0px none;
@@ -35,6 +42,10 @@
 
 
 }
+	img{
+	margin-top: -20px;
+
+	}
 
 .nav-collapse{
 	
@@ -44,6 +55,8 @@ ul.nav li.dropdown:hover .dropdown-menu{
  margin-top: 30px;
 
 }
+ 
+
 
 /* Footer */
 .footer  {
