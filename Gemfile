@@ -4,8 +4,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem 'bourbon'
 gem 'neat'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -58,6 +57,9 @@ gem "dalli"
 gem "compass-rails", "~> 1.1.2"
 
 group :development do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3', '1.3.8'
+
   gem "capistrano"
   gem "capistrano-ext"
   gem "cape"
@@ -70,7 +72,10 @@ group :development do
   gem "pry-remote"
 end
 
-
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
