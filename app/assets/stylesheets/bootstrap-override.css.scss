@@ -15,13 +15,13 @@
 	body{
 	  padding-top: 96px;
 	}
+
 }
-.container{
-	position: relative;
-	margin-top: 10px;
-	width: 100%; 
-	height: 100%;
-	font-size: 10pt; 
+@media (max-width: 979px){}
+.navbar .container {
+ 
+ 
+margin-top: 0px;
 }
 
 
@@ -42,10 +42,7 @@
 
 
 }
-	img{
-	margin-top: -20px;
 
-	}
 
 .nav-collapse{
 	
@@ -55,7 +52,9 @@ ul.nav li.dropdown:hover .dropdown-menu{
  margin-top: 30px;
 
 }
- 
+ 	.navbar-fixed-top .navbar-inner{
+	padding-top: 20px;
+	}
 
 
 /* Footer */
