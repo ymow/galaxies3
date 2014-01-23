@@ -7,6 +7,8 @@
   <%= render_page_image_link_tag %>
   <%= csrf_meta_tag %>
   <%= stylesheet_link_tag "application" %>
+    <%= stylesheet_link_tag "bootstrap-override" %>
+        <%= stylesheet_link_tag "bootstrap-setting" %>
   <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
 <!-- 
   <script src="/assets/responsive-nav.js"></script>
@@ -19,10 +21,10 @@
           
        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
         <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
-          <%= javascript_include_tag "bootstrap" %>
+          <%= javascript_include_tag "bootstrap.js" %>
             <!-- Slider Plugin -->
-            <%= javascript_include_tag "glide" %>
-                   <%= javascript_include_tag "responsive-nav" %>
+            <%= javascript_include_tag "glide.js" %>
+                   <%= javascript_include_tag "responsive-nav.js" %>
 
 </head>
   <%= yield :stylesheets %>
