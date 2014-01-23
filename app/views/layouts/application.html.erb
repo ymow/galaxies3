@@ -6,7 +6,6 @@
   <%= render_page_keywords_meta_tag %>
   <%= render_page_image_link_tag %>
   <%= csrf_meta_tag %>
-  <script src="responsive-nav.js"></script>
   <%= stylesheet_link_tag "application" %>
   <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
 <!-- 
@@ -19,10 +18,14 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
      
           <!-- Slider Plugin -->
-    <script type="text/javascript" src="/assets/jquery.glide.js"></script>
+  
      
-       <script src="/assets/bootstrap.js"></script>
-       <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script> <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
+     
+       <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
+        <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
+          <%= javascript_include_tag "bootstrap" %>
+            <%= javascript_include_tag "glide" %>
+                   <%= javascript_include_tag "responsive-nav" %>
 
 </head>
   <%= yield :stylesheets %>
