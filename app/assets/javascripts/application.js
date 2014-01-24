@@ -6,3 +6,4 @@
 //= require bootstrap
 //= require twitter/bootstrap/alert
 //= require twitter/bootstrap/dropdown
+//= require_tree
